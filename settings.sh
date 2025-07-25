@@ -21,7 +21,7 @@ PACKAGES=(
 	base-devel git meson mingw-w64-gcc cmake
 	# gaming
 	# extra
-	nano ttf-dejavu ttf-liberation
+	nano ttf-dejavu ttf-liberation lxterminal
 	yt-dlp jre17-openjdk
 )
 

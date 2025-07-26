@@ -6,23 +6,27 @@
 # packages from the Chaotic-AUR repo
 PACKAGES=(
 	# audio
-	alsa-lib lib32-alsa-lib alsa-plugins lib32-alsa-plugins libpulse
-	lib32-libpulse alsa-tools alsa-utils pipewire lib32-pipewire pipewire-pulse pipewire-jack lib32-pipewire-jack
+	#alsa-lib lib32-alsa-lib alsa-plugins lib32-alsa-plugins libpulse
+	#lib32-libpulse alsa-tools alsa-utils  pipewire-jack lib32-pipewire-jack
 	# core
-	xorg-xwayland qt6-wayland wayland lib32-wayland qt5-wayland xorg-server-xephyr gamescope
+	#qt5-wayland xorg-server-xephyr
 	# video
-	mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon
-	vulkan-intel lib32-vulkan-intel
-	vulkan-icd-loader lib32-vulkan-icd-loader vulkan-mesa-layers
-	lib32-vulkan-mesa-layers libva-intel-driver lib32-libva-intel-driver
-	intel-media-driver mesa-utils vulkan-tools libva-utils lib32-mesa-utils
+	# vulkan-radeon lib32-vulkan-radeon
+	# vulkan-intel lib32-vulkan-intel
+	# vulkan-icd-loader lib32-vulkan-icd-loader vulkan-mesa-layers
+	# lib32-vulkan-mesa-layers libva-intel-driver lib32-libva-intel-driver
+	# intel-media-driver vulkan-tools libva-utils
 	# wine
 	# development
-	base-devel git meson mingw-w64-gcc cmake
+	# base-devel git meson mingw-w64-gcc cmake
 	# gaming
 	# extra
-	nano ttf-dejavu ttf-liberation lxterminal zenity
-	yt-dlp jre17-openjdk
+	nano ttf-dejavu ttf-liberation lxterminal zenity yt-dlp libice libsm git base-devel pipewire pipewire-pulse lib32-pipewire
+
+        #Trying
+        # Didn't work
+        #lib32-wayland mesa lib32-mesa mesa-utils lib32-mesa-utils xorg-xwayland wayland lib32-wayland gamescope
+
 )
 
 # If you want to install AUR packages, specify them in this variable

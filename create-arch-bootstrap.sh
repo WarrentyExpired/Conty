@@ -261,7 +261,6 @@ chmod 755 "${bootstrap}"/root
 rm -f "${bootstrap}"/etc/fonts/conf.d/10-hinting-slight.conf
 ln -s /usr/share/fontconfig/conf.avail/10-hinting-full.conf "${bootstrap}"/etc/fonts/conf.d
 
-clear
 echo "Done"
 
 if [ -f "${bootstrap}"/opt/bad_aur_pkglist.txt ]; then

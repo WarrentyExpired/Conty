@@ -205,5 +205,4 @@ mv "${utils}" "${script_dir}"
 cd "${script_dir}" || exit 1
 rm -rf build-utils
 
-clear
 echo "Done!"

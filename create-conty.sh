@@ -131,5 +131,4 @@ fi
 cat utils/init utils/bash conty-start.sh utils/busybox "${utils}" "${image_path}" > conty.sh
 chmod +x conty.sh
 
-clear
 echo "Conty created and ready to use!"

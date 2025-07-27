@@ -517,7 +517,6 @@ if [ "${USE_SYS_UTILS}" != 1 ] && [[ "${utils_size}" -gt 0 ]]; then
 		tail -c +$((init_size+bash_size+script_size+busybox_size+1)) "${script}" | head -c "${utils_size}" | tar -C "${working_dir}" -zxf -
 
 		if [ ! -f "${mount_tool}" ] || [ ! -f "${bwrap}" ]; then
-			clear
 			echo "The integrated utils were not extracted!"
 			echo "Perhaps something is wrong with the integrated utils.tar.gz."
 
